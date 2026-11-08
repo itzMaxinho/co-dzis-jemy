@@ -61,3 +61,5 @@ body{background:var(--bg);color:var(--ink)}
 .admin-users-manage{margin-top:20px}
 .admin-users-manage .admin-heading{margin-bottom:12px}
 @media(max-width:650px){.admin-user-browser{padding:12px}.admin-user-dishes .list-row{gap:8px}.admin-rating{font-size:12px}}
+
+.side-head-actions{display:flex;align-items:center;gap:8px}.side-head-actions .btn{padding:9px 12px;font-size:11px}
