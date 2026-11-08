@@ -1,0 +1,1 @@
+Tu możesz trzymać lokalne placeholdery lub obrazy do projektu. Zdjęcia dodane w panelu administratora są wysyłane do Supabase Storage (bucket dish-images), dzięki czemu zobaczą je wszyscy użytkownicy.
