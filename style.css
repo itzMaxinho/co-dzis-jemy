@@ -139,3 +139,7 @@ html[data-theme="light"] .modal-backdrop{background:#35251d99}
 .rating-control input[type="range"]::-moz-range-thumb{width:23px;height:23px;border:3px solid var(--paper);border-radius:50%;background:var(--orange);box-shadow:0 1px 5px #0003}
 .rating-control output{flex:0 0 76px;text-align:right;font-size:13px;font-weight:700;color:var(--orange);white-space:nowrap}
 @media(max-width:650px){.rating-control{gap:9px}.rating-control input[type="range"]{height:48px}.rating-control input[type="range"]::-webkit-slider-thumb{width:32px;height:32px;margin-top:-12px}.rating-control input[type="range"]::-moz-range-thumb{width:27px;height:27px}.rating-control output{flex-basis:78px;font-size:14px}.list-row:has(.rating-control){align-items:flex-start;flex-wrap:wrap}.list-row:has(.rating-control) .list-info{flex:1 1 calc(100% - 68px);padding-top:2px}.list-row:has(.rating-control)>.mini-btn{flex:1 1 100%;min-height:40px}}
+
+/* v7: placeholder z kotem kucharzem */
+.placeholder-image{object-fit:contain!important;background:#251811!important;padding:8px}
+html[data-theme="light"] .placeholder-image{background:#f1e4d8!important}
